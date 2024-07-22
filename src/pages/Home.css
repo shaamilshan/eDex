@@ -122,7 +122,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-bottom: 20px;
+      
     }
   
     .left-side h4 {
@@ -143,6 +143,9 @@
     .hero-img{
       /* display: none */
 
+    }
+    .left-side{
+      margin-bottom: 20px;
     }
   }
   
