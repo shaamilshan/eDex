@@ -1,0 +1,115 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 1000; 
+  }
+  
+  .edex-logo {
+    width: 58px;
+    height: 24px;
+  }
+  
+  .header-ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .header-ul li {
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  .header-ul li:hover {
+    color: #20B486;
+    cursor: pointer;
+  }
+  
+  .header-btn {
+    padding: 12px 48px;
+    background-color: #20B486;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .header-btn:hover {
+    background-color: #20b48531;
+    color: #20B486;
+  }
+  
+  .header-btn p {
+    font-weight: 800;
+    margin: 0;
+  }
+  
+  .header-li {
+    color: black;
+  }
+  
+  .menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #20B486;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+  
+  .menu-icon.open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .menu-icon.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-icon.open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+  .header-ul.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    right: 5%;
+    background-color: #fff;
+    width: 90%;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999; 
+  }
+  
+  @media (max-width: 768px) {
+    .Header {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  
+    .header-ul {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: flex;
+    }
+  
+    .header-btn {
+      display: none;
+    }
+  }
+  
