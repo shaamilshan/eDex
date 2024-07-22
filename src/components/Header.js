@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import eDex from '../assets/eDex.png';
 import './Header.css';
-import { NavLink, useNavigate } from 'react-router-dom';
+import { NavLink, } from 'react-router-dom';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const navigate = useNavigate();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
