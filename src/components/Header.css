@@ -96,10 +96,7 @@
 
 @media (max-width: 768px) {
   .Header {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding: 20px;
   }
 
   .header-ul {

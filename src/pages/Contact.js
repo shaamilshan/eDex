@@ -6,7 +6,7 @@ import 'animate.css/animate.min.css'
 
 function Contact() {
   return (
-    <div>
+    <div className='container'>
        <div className='contact  animate__animated animate__fadeInUp'>
             <div className='contact-left'>
                 <img src={contact} alt="contact-img" className='contact-img' />

@@ -1,3 +1,7 @@
+.container{
+  width: 85%;
+  margin: auto;
+}
 .contact {
   display: flex;
   flex-direction: row;
@@ -86,7 +90,7 @@
   background-color: #E7E9EB;
   border: none;
   border-radius: 8px;
-  max-width: 86%;
+  max-width: 90%;
   min-width: 60%;
   margin: 0;
   padding: 12px 48px 12px 10px;
@@ -101,7 +105,9 @@
   background-color: #20B486;
   color: #fff;
   border-radius: 8px;
-  padding: 6px 12px;
+  max-width: 100%;
+  min-width: 60%;
+  padding: 12px 48px 12px 10px;
 }
 
 .contact-btn:hover {
@@ -185,5 +191,13 @@
 
   .contact-email {
     padding: 16px;
+  }
+  .container{
+    width: 85%;
+    margin: auto;
+  }
+  .contact-btn{
+    width: 100%;
+    
   }
 }

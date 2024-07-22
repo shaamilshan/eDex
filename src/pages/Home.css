@@ -115,9 +115,13 @@
   
   @media (max-width: 480px) {
     .Home {
-      margin-top: 3%;
-      padding-left: 2%;
-      padding-right: 2%;
+      margin-top: 40%;
+      padding-left: 5%;
+      padding-right: 5%;
+      gap: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   
     .left-side h4 {
@@ -134,6 +138,10 @@
   
     .hero-input {
       padding: 16px;
+    }
+    .hero-img{
+      /* display: none */
+
     }
   }
   
